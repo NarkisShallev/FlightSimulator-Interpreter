@@ -46,10 +46,14 @@ Once built, you can run the interpreter executable (for example ./interpreter if
 
 If your script uses data server bindings, make sure the simulated server is running or data input is being provided.
 
+---
+
 ### 🗂️ Usage
 Here is a small snippet of what a script might look like:
 
 ![alt text](https://github.com/NarkisShallev/FlightSimulator-Interpreter/blob/master/2.png)
+
+---
 
 ## 🏗️ Architecture & Design  
 - **Command Pattern**: Each command in the language is implemented as a class deriving from a base `Command` interface (e.g., `PrintCommand`, `WhileCommand`, `OpenDataServerCommand`).  
@@ -58,6 +62,8 @@ Here is a small snippet of what a script might look like:
 - **Server/Client Simulation**: The project includes modules to simulate a data server (sending flight simulation values) and a client writer (receiving/writing values).  
 - **Parser & Text Analyzer**: Text input (script files or interactive lines) is analyzed, tokenized, parsed into commands and expressions, then executed sequentially.  
 - **Modular Layout**: Files and components are organized into intuitive modules: `Commands`, `Expression`, `DataBinds`, `DataReaderServer`, `DataWriterClient`, etc.
+
+---
 
 ## 👨‍💻 Author
 Developed by Narkis Shallev
