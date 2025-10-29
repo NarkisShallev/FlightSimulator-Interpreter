@@ -46,8 +46,6 @@ Once built, you can run the interpreter executable (for example ./interpreter if
 
 If your script uses data server bindings, make sure the simulated server is running or data input is being provided.
 
----
-
 ### 🗂️ Usage
 Here is a small snippet of what a script might look like:
 
